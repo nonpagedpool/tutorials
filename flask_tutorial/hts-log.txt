@@ -1,0 +1,19 @@
+HTTrack3.48-11+htsswf+htsjava launched on Sun, 08 Jun 2014 11:20:33 at http://adicu.com/intro-webdev/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://adicu.com/intro-webdev/ -O1 "c:\temp\websites\flask_tutorial" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:20:48	Warning: 	Retry after error -4 (No data (connection closed)) at link adicu.com/img/intro-webdev/demo-height-width.png (from adicu.com/intro-webdev/)
+11:21:28	Warning: 	Retry after error -4 (Incorrect length (523774 Bytes, 4164193 expected)) at link adicu.com/img/intro-webdev/madeyet-1.png (from adicu.com/intro-webdev/)
+11:21:29	Warning: 	Retry after error -4 (Incorrect length (517783 Bytes, 3816184 expected)) at link adicu.com/img/intro-webdev/madeyet-2.png (from adicu.com/intro-webdev/)
+11:21:29	Warning: 	Retry after error -4 (No data (connection closed)) at link adicu.com/img/intro-webdev/madeyet-3.png (from adicu.com/intro-webdev/)
+11:23:25	Warning: 	Retry after error -4 (Incorrect length (1566548 Bytes, 4164193 expected)) at link adicu.com/img/intro-webdev/madeyet-1.png (from adicu.com/intro-webdev/)
+11:23:25	Warning: 	Retry after error -4 (Incorrect length (1560707 Bytes, 3816184 expected)) at link adicu.com/img/intro-webdev/madeyet-2.png (from adicu.com/intro-webdev/)
+11:23:25	Warning: 	Retry after error -4 (Incorrect length (788672 Bytes, 919685 expected)) at link adicu.com/img/intro-webdev/madeyet-3.png (from adicu.com/intro-webdev/)
+11:26:39	Error: 	"Incorrect length (3654611 Bytes, 3816184 expected)" (-4) after 2 retries at link adicu.com/img/intro-webdev/madeyet-2.png (from adicu.com/intro-webdev/)
+
+HTTrack Website Copier/3.48-11 mirror complete in 6 minutes 6 seconds : 19 links scanned, 10 files written (5504310 bytes overall) [9010196 bytes received at 24618 bytes/sec], 250161 bytes transferred using HTTP compression in 3 files, ratio 35%, 1.4 requests per connection
+(1 errors, 7 warnings, 0 messages)
